@@ -145,6 +145,8 @@ if msa_method == "precomputed":
   else:
     precomputed = args.precomputed
     print("Use precomputed msa.pickle: {}".format(precomputed))
+else:
+  precomputed = None
 
 add_custom_msa = False #@param {type:"boolean"}
 msa_format = "fas" #@param ["fas","a2m","a3m","sto","psi","clu"]
